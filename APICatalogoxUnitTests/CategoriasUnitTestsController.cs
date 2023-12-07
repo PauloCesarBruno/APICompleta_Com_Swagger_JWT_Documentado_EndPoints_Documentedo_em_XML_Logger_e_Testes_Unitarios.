@@ -21,8 +21,8 @@ public class CategoriasUnitTestsController
     public static DbContextOptions<AppDbContext> dbContextOptions { get; }
 
     public static string connectionString =
-         "Sua String";
-           
+          "Server=HOME;Database=CatalogoDB;User ID=sa;Password=Paradoxo22;TrustServerCertificate=True";
+
     static CategoriasUnitTestsController()
     {
         dbContextOptions = new DbContextOptionsBuilder<AppDbContext>()

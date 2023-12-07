@@ -31,7 +31,7 @@ public class CustomerLogger : ILogger
 
     private void EscreverTextoNoArquivo(string mensagem)
     {
-        string caminhoArquivoLog = @"C:\_Log.txt";   // Escolha o caminho para gravação de Logs.
+        string caminhoArquivoLog = @"D:\Conteudo do meu C\Paulo Bruno\Visual Studio\WebApis_Macoratti\API_Catalogo_Macoratti_Para_GitHub\APICatalogo\Logging\_Log.txt";   // Escolha o caminho para gravação de Logs.
         using (StreamWriter streamWriter = new StreamWriter(caminhoArquivoLog, true))
         {
             try

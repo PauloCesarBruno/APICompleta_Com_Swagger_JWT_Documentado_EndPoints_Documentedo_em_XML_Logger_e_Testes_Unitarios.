@@ -1,0 +1,3 @@
+﻿  "email": "p_bruno001@hotmail.com",
+  "password": "MinhaEntrada@1010",
+  "confirmPassword": "MinhaEntrada@1010"
